@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#header, #nav, #main-content, #sidebar-content, #footer  {
+    border: 1px solid grey; margin: 5px; padding: 5px;
+}
+
+#main-content{
+    float: left;
+    width: 60%;
+}
+
+#sidebar-content{
+    float: left;
+    width: 30%;
+}
+
+#footer{
+    clear: both;
+}
