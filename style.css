@@ -3,20 +3,20 @@ body{
     font-size: 12px;
 }
 
-#header, #nav, #main-content, #sidebar-content, #footer  {
+header, nav, main, aside, footer  {
     border: 1px solid grey; margin: 5px; padding: 5px;
 }
 
-#main-content{
+main{
     float: left;
     width: 60%;
 }
 
-#sidebar-content{
+aside{
     float: left;
     width: 30%;
 }
 
-#footer{
+footer{
     clear: both;
 }
